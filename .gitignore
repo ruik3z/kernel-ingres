@@ -1,0 +1,14 @@
+# Ignore global/OS clutter
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup safety for outer folders in case artifacts land there
+*.o
+*.ko
+*.dtb
+*.dtbo
+Image
+Image.gz
+Image.gz-dtb
